@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body copyright="All data copyright San Francisco Muni 2016.">
+    <predictions agencyTitle="San Francisco Muni" routeTitle="KT-Ingleside/Third Street" routeTag="KT"
+                 stopTitle="Civic Center Station Inbound" stopTag="5727">
+        <direction title="Inbound to Sunnydale + Bayshore">
+            <prediction epochTime="1461638241491" seconds="255" minutes="4" isDeparture="false" dirTag="KT___I_F00"
+                        vehicle="1497" block="9421" tripTag="7065885"/>
+            <prediction epochTime="1461639668376" seconds="1682" minutes="28" isDeparture="false"
+                        affectedByLayover="true" dirTag="KT___I_F00" vehicle="1471" block="9405" tripTag="7065886"/>
+            <prediction epochTime="1461639859376" seconds="1873" minutes="31" isDeparture="false"
+                        affectedByLayover="true" dirTag="KT___I_F00" vehicle="1447" block="9407" tripTag="7065887"/>
+            <prediction epochTime="1461640759376" seconds="2773" minutes="46" isDeparture="false"
+                        affectedByLayover="true" dirTag="KT___I_F00" vehicle="1440" block="9409" tripTag="7065888"/>
+            <prediction epochTime="1461641659376" seconds="3673" minutes="61" isDeparture="false"
+                        affectedByLayover="true" dirTag="KT___I_F00" vehicle="1409" block="9411" tripTag="7065889"/>
+        </direction>
+        <direction title="Inbound to 23rd St + Third St">
+            <prediction epochTime="1461641339646" seconds="3353" minutes="55" isDeparture="false"
+                        affectedByLayover="true" dirTag="KT___I_P00" vehicle="1443" block="9422" tripTag="7065931"/>
+        </direction>
+        <message text="We're on Twitter: @sfmta_muni" priority="Low"/>
+        <message text="No Elevator at
+Van Ness Station" priority="Normal"/>
+        <message text="Sign up for email &amp; text service alerts at sfmta.com." priority="Low"/>
+    </predictions>
+</body>
