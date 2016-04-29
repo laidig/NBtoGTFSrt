@@ -26,7 +26,8 @@ If empty, prime the cache by prioritizing querying for predictions on a route.  
 For every query period, query for 1/n stops, and use the pattern cache to fill in predictions for the remaining (n-1)/n stops. (TBD)
 Take the predictions generated above and generate a GTFSrt feed (TBD)
 
-===Dependencies
-*nodejs
-*redis configured in the default fashion
+###Dependencies
+
+* nodejs
+* redis configured in the default fashion
 
