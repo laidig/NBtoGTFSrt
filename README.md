@@ -19,12 +19,12 @@ NextBus' [patented prediction algorithm] (http://patft.uspto.gov/netacgi/nph-Par
 > (c) using said schedule of travel times from said historical transit data table and said position of said transit vehicles at a given time to calculate predicted arrival times at which said transit vehicles will arrive at upcoming stops and incorporating, said predicted arrival times in a predicted transit data table ;  
 
 
-Define a Stop object as both the stop_id and the time difference from the previous stop. (done)
-Build a cache of extended trip patterns, with the key along the lines of agency-route-direction-[stops]. (done)
-If empty, prime the cache by prioritizing querying for predictions on a route.  (done)
-  Update and prune this cache via some strategy (TBD). 
-For every query period, query for 1/n stops, and use the pattern cache to fill in predictions for the remaining (n-1)/n stops. (TBD)
-Take the predictions generated above and generate a GTFSrt feed (TBD)
+- Define a Stop object as both the stop_id and the time difference from the previous stop. (done)
+- Build a cache of extended trip patterns, with the key along the lines of agency-route-direction-[stops]. (done)
+- If empty, prime the cache by prioritizing querying for predictions on a route.  (done)
+-  Update and prune this cache via some strategy (TBD). 
+- For every query period, query for 1/n stops, and use the pattern cache to fill in predictions for the remaining (n-1)/n stops. (TBD)
+- Take the predictions generated above and generate a GTFSrt feed (TBD)
 
 ###Dependencies
 
